@@ -35,3 +35,26 @@ p {
 .subratllat {
     text-decoration: underline;
 }
+
+.verd {
+    color: green;
+}
+
+.blau {
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+p::before {
+    content: "👉 ";
+    color: blue;
+}
+
+p::after {
+    content: " ✔";
+    color: green;
+}
